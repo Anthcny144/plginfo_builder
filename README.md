@@ -1,5 +1,5 @@
 # plginfobuilder
-A program to build the plginfo file file used in a 3gx plugin
+A program to rebuild the plginfo file used to build a 3gx plugin using [3gxtool](https://gitlab.com/thepixellizeross/3gxtool)
 
 # Usage
 ```
