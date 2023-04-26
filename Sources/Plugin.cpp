@@ -65,11 +65,7 @@ void Plugin::GetStringInfo(string &FileName, vector<string> &Info)
     while (Loop)
     {
         char Char = File.get();
-        if (Char != 0)
-        {
-            Word += Char;
-            //cout << Word << endl;
-        }
+        if (Char != 0) Word += Char;
         else
         {
             Info.push_back(Word);
