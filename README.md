@@ -1,1 +1,1 @@
-# plginfo_builder
+# plginfobuilder
