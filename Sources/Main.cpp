@@ -4,7 +4,7 @@
 #include "Includes/Help.hpp"
 #include "Includes/Plugin.hpp"
 using namespace std;
-
+ 
 #define PROGRAM_NAME "plginfo_builder"
 #define STOP(EC) Usage(); return EC;
 
