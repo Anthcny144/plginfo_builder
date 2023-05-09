@@ -33,8 +33,7 @@ int main(int argc, char *argv[])
     }
     if (Plugin::GetHeaderVersion(FileName) != 1 && Plugin::GetHeaderVersion(FileName) != 2)
     {
-        cout << "Invalid 3gx file header! Only compatible with plugins built by 3gxtool 1.0 1.1 or 1.2" << endl;
-        STOP(-4);
+        cout << "Unknown 3gx header version, the program might not work correctly" << endl;
     }
 
     vector<string> Info;
